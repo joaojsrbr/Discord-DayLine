@@ -1,5 +1,5 @@
 <#
-    Script de automação do projeto Discord Day Progress
+    Script de automação do projeto Discord DayLine
     Uso: .\build.ps1 <comando>
 
     Comandos:
@@ -20,7 +20,7 @@ param(
 
 $ErrorActionPreference = "Stop"
 $ScriptName = "main.py"
-$ExeName = "DiscordDayProgress"
+$ExeName = "DiscordDayLine"
 
 function Write-Step($msg) {
     Write-Host "`n==> $msg" -ForegroundColor Cyan
@@ -139,7 +139,7 @@ function Do-Clean {
 function Show-Help {
     Write-Host @"
 
-Discord Day Progress - script de build
+Discord DayLine - script de build
 
 Uso: .\build.ps1 <comando>
 

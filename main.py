@@ -107,7 +107,7 @@ def on_update_now(icon, item):
 
 # ===== AUTO START NO WINDOWS =====
 STARTUP_KEY = r"Software\Microsoft\Windows\CurrentVersion\Run"
-APP_NAME = "DiscordDayProgress"
+APP_NAME = "DiscordDayLine"
 
 
 def is_autostart_enabled() -> bool:
@@ -166,7 +166,7 @@ def build_menu():
 
 def main():
     threading.Thread(target=worker_loop, daemon=True).start()
-    icon = pystray.Icon("discord_progress", load_icon_image(), "Discord Day Progress", build_menu())
+    icon = pystray.Icon("discord_progress", load_icon_image(), "Discord DayLine", build_menu())
     icon.run()
 
 

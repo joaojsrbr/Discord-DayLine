@@ -1,8 +1,8 @@
-# Discord Day Progress
+# Discord DayLine
 
 ![Banner](assets/chisa.png)
 
-O **Discord Day Progress** é um aplicativo de bandeja do sistema (System Tray) desenvolvido em Python que atualiza dinamicamente o status do seu perfil do Discord com a porcentagem de progresso do dia atual (por exemplo, exibindo `0.4567` para representar `45.67%` do dia decorrido).
+O **Discord DayLine** é um aplicativo de bandeja do sistema (System Tray) desenvolvido em Python que atualiza dinamicamente o status do seu perfil do Discord com a porcentagem de progresso do dia atual (por exemplo, exibindo `0.4567` para representar `45.67%` do dia decorrido).
 
 O app funciona em segundo plano e se integra ao recurso de perfis dinâmicos de aplicativos do Discord.
 
@@ -151,7 +151,7 @@ Se você preferir rodar o aplicativo como um executável independente do Windows
    .\build.ps1 build
    ```
 2. O PyInstaller compilará o script e criará uma pasta chamada `dist`.
-3. O executável estará disponível em `dist/DiscordDayProgress.exe`.
+3. O executável estará disponível em `dist/DiscordDayLine.exe`.
 4. O arquivo `.env` será copiado automaticamente para a pasta `dist` (garanta que ele esteja configurado antes de rodar o `.exe`).
 
 ---
