@@ -1,0 +1,17 @@
+[project]
+name = "discord-day-progress"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pillow>=12.3.0",
+    "pystray>=0.19.5",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+]
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.21.0",
+]
